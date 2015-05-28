@@ -1,2 +1,2 @@
 # dot
-Use this one.
+This is the DOT Offline project.
