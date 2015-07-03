@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html><head>
+<title>Dot</title>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta name="format-detection" content="telephone=no">
+
+<link rel="stylesheet" type="text/css" href="Dot_files/common.css">
+<link rel="stylesheet" type="text/css" href="Dot_files/worldmap.css">
+<link rel="stylesheet" type="text/css" href="Dot_files/event.css">
+<link rel="stylesheet" type="text/css" href="Dot_files/event_2001.css">
+<link rel="stylesheet" type="text/css" href="Dot_files/default.css">
+<link rel="stylesheet" type="text/css" href="Dot_files/position.css">
+<link rel="stylesheet" type="text/css" href="Dot_files/hjax.css">
+
+<script charset="utf-8" src="Dot_files/jquery.js"></script>
+<script charset="utf-8" src="Dot_files/kickmotor_002.js"></script>
+<script charset="utf-8" src="Dot_files/kickmotor.js"></script><meta content="width=320, initial-scale=1, user-scalable=no" name="viewport">
+<script charset="utf-8" src="Dot_files/nativefn.js"></script>
+<script charset="utf-8" src="Dot_files/platform.js"></script>
+<script charset="utf-8" src="Dot_files/view.htm"></script>
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+$.hjax.setResponseUri("_my");
+$.hjax.setSubSecOfFrontToServer(1431553293);
+$.hjax.updateLastSessionSec(1431552926);
+
+</script>
+
+<div class="mbgaui-container">
+    <div class="mission-header">
+        <div class="current-home"></div>
+
+        <div class="mission-header-gauge">
+            <div class="gauge-wrap-w75 gauge-wrap-position">
+                <div id="mission_status_lv" class="point-gauge-lv2">9999</div>
+                <div class="point-gauge gauge-w">
+                    <div id="mission_status_lv_bar" class="lv2-gauge" style="width: 40.7407407407407%;"></div>
+                </div>
+                <p id="mission_status_lv_bar_text" class="lv2-gauge-text">593</p>
+            </div>
+        </div>
+
+        <div class="mission-header-gauge">
+            <div class="mission-header-recover-time1 hjax-hidden">00:00</div>
+            <div class="gauge-wrap-w75 gauge-wrap-position">
+                <div class="point-gauge-mp2"></div>
+                <div class="point-gauge gauge-w">
+                    <div id="mission_status_mp_bar" class="mp2-gauge" style="width: 100%;"></div>
+                </div>
+                <p id="mission_status_mp_text" class="mp2-gauge-text">100</p>
+            </div>
+        </div>
+
+        <div class="mission-header-gauge">
+            <div class="mission-header-recover-time2 hjax-hidden">00:00</div>
+            <div class="gauge-wrap-w75 gauge-wrap-position">
+                <div class="point-gauge-bp2"></div>
+                <ul class="bp2-gauge">
+                    <li id="mission_status_bp_bar1" class="now"></li>
+                    <li id="mission_status_bp_bar2" class="now"></li>
+                    <li id="mission_status_bp_bar3" class="now"></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="mypage-body">
+        <img src="Dot_files/Game_Images/home_bg5.png" width="320" height="440">
+        <div class="mypage-header">
+
+            <!-- header menu -->
+            <div class="mypage-header-info">
+
+                <!-- user image -->
+                <div class="mypage-header-user">
+                    <div class="mypage-user-img-shadow">
+                        <div class="mypage-user-img">
+                            <a href="" class="mbgaui-widget-anchors"><img src="http://assets.mobage.com/system/users/photos/127/602/807/small/127602807.jpg?1423547839" width="38" height="38" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- user image -->
+
+                <div class="mypage-header-cap">
+
+                    <ul class="crown-area">
+                        <li class="g">999</li>
+                        <li class="s">999</li>
+                        
+                        <li class="b">999</li>
+                        
+                    </ul>
+
+                    <p class="user-name">TamamaNitouheiDesu
+                        <!--  -->
+                    </p>
+
+                    <!-- header buttons -->
+                    <ul class="header-btn">
+                        <li>
+                            <a href="_quest_list.html" class="challenges mbgaui-widget-anchors" onClick="return $.hjax({se:'ok', url:'_quest_list'})">Achieves</a>
+                            <div class="count hjax-hidden">0</div>
+
+                        </li>
+                        <li>
+                            <a class="wall mbgaui-widget-anchors" onClick="$.audio.playSe('ok'); $.hjax.windowLocation('http://community.denagames.com/_bbs_posts?game_id=601&session_key=45CoocKLCMri0PnhpzaVPNTyKuqWwx7c&game_url=http%3A%2F%2Fdot.denagames-asia.com%2F_my&topic_id=19777286&block_words=dUoZ')">Wall</a>
+                            <div class="count hjax-hidden">0</div>
+
+                        </li>
+                        <li>
+                            <a href="_info.html" class="info mbgaui-widget-anchors" onClick="return $.hjax({se:'ok', url:'_information_list?last_access_date=1429163444'})">Info</a>
+                            <div class="count hjax-hidden">0</div>
+
+                        </li>
+                    </ul>
+                    <!-- header buttons -->
+
+                </div>
+            </div>
+
+
+        </div>
+        <!-- header menu -->
+
+        <!-- banner -->
+        <ul class="mypage-banner-area">
+            
+            
+            
+            
+        </ul>
+
+        <!-- Animation area -->
+        <div class="mypage-animation-area">
+			<table id="table1">
+				<tbody>
+					<tr>
+						<td><img src="Dot_files/Theri/312202.png" id="backrow" /></td>
+						<td><img src="Dot_files/Theri/304002.png" id="backrow" /></td>
+						<td><img src="Dot_files/Xana/109602.png" id="backrow" /></td>
+					</tr>
+					</tbody>
+					</table>
+			<table id="table2">
+				<tbody>
+					<tr>
+						<td><img src="Dot_files/Hemi/210302.png" id="middlerow" /></td>
+						<td><img src="Dot_files/Hemi/212902.png" id="middlerow" /></td>
+						<td><img src="Dot_files/Hemi/210302.png" id="middlerow" /></td>
+					</tr>
+					</tbody>
+					</table>
+			<table id="table3">
+				<tbody>
+					<tr>
+						<td><img src="Dot_files/Xana/109602.png" id="frontrow" /></td>
+						<td><img src="Dot_files/Theri/304002.png" id="frontrow" /></td>
+						<td><img src="Dot_files/Theri/312202.png" id="frontrow" /></td>
+					</tr>
+				</tbody>
+			</table>
+        </div>
+        <!-- Animation area -->
+
+        <!-- button -->
+        <div class="footer-menu-area">
+            <ul class="footer-menu-block">
+                <li class="footer-menu-block-s1">
+                    <a href="_gacha.html" class="mbgaui-widget-anchors gacha" onClick="return $.hjax({se:'ok', url:'_gacha'})">
+                    <div class="count ">99999</div>
+
+                    
+                    <!---->
+                    </a>
+                    <p>Build</p>
+                </li>
+                <li class="footer-menu-block-s2">
+                    <a href="_deck.html" class="mbgaui-widget-anchors deck" onClick="return $.hjax({se:'ok', url:'_deck'})"></a>
+                    <p>Band</p>
+                </li>
+                <li class="footer-menu-block-l">
+                    
+                        <a href="_world_map.html" class="mbgaui-widget-anchors mission" onClick="$.pageData.my.onGo();"></a>
+                    
+                </li>
+                <li class="footer-menu-block-s3">
+                    <div class="count hjax-hidden">0</div>
+
+                    <a href="_boss_list.html" class="mbgaui-widget-anchors battle" onClick="return $.hjax({se:'ok', url:'_boss_list'})"></a>
+                    <p>Battle</p>
+                </li>
+                <li class="footer-menu-block-s4">
+                    <div class="count hjax-hidden">0</div>
+
+                    <!---->
+                    <a href="_menu.html" class="mbgaui-widget-anchors menu" onClick="$.pageData.my.showMenu()">
+                    
+                    </a>
+                    <p>More</p>
+                </li>
+            </ul>
+        </div>
+        <!-- button -->
+    </div>
+</div>
+
+<div id="narration-popup" class='popup-dialog hjax-none'>
+    <div class='popup-dialog-underlay invisible-underlay'></div>
+        
+
+<div class="dlgutil-parts-btn mission-sys-text-click-area">
+
+	<div class="dlgutil-parts-box mission-sys-text-shadow">
+		<div id="narration_popup_body" class="mission-sys-text">
+			<p id="narration_popup_message" class="dlgutil-parts-item1-description"></p>
+			<div class="mission-sys-text-arrow"></div>
+		</div>
+	</div>
+
+</div>
+
+
+    
+</div>
+
+
+<div id="menu-dialog" class='popup-dialog hjax-none'>
+    <div class='popup-dialog-underlay '></div>
+        <div class="dlgutil-parts-box dialog-shadow dialog-shadow-height4">
+    <div class="dialog-body dialog-body-height4">
+        <div class="dlgutil-parts-close-btn dialog-close-btn mbgaui-widget-anchors" onClick=";"></div>
+        <div class="dialog-title">
+            <h1 class="dlgutil-parts-title">More</h1>
+        </div>
+
+        <div class="dialog-menu">
+
+
+            <div class="dialog-menu-col">
+                <div class="dialog-menu-cell" id="menu11">
+                    <!---->
+                    <a data-url="_shop" class="dlgutil-parts-menu-btn mbgaui-widget-anchors premium"></a>
+                    <p>Store</p>
+                </div>
+                <div class="dialog-menu-cell" id="menu12">
+                    
+                        <a data-url="_store" class="dlgutil-parts-menu-btn mbgaui-widget-anchors zeny"></a>
+                        <p>Texi Exchange</p>
+                    
+                    
+                </div>
+                <div class="dialog-menu-cell" id="menu13">
+                    <a data-url="_item_list" class="dlgutil-parts-menu-btn mbgaui-widget-anchors goods"></a>
+                    <p>Items</p>
+                </div>
+            </div>
+
+            <div class="dialog-menu-col">
+                <div class="dialog-menu-cell" id="menu21">
+                    <div class="count hjax-hidden">0</div>
+
+                    <a data-url="_inventory" class="dlgutil-parts-menu-btn mbgaui-widget-anchors inventory"></a>
+                    <p>Cache</p>
+                </div>
+                <div class="dialog-menu-cell" id="menu">
+                    <div class="count hjax-hidden">0</div>
+
+                    
+                        <a data-url="_trade_top" class="dlgutil-parts-menu-btn mbgaui-widget-anchors trade"></a>
+                        <p>Trade</p>
+                    
+                </div>
+                <div class="dialog-menu-cell" id="menu23">
+                    
+                        <a data-url="_character_album" class="dlgutil-parts-menu-btn mbgaui-widget-anchors catalog"></a>
+                        <p>Catalog</p>
+                    
+                </div>
+            </div>
+
+            <div class="dialog-menu-col">
+                <div class="dialog-menu-cell" id="menu22">
+                    <div class="count hjax-hidden">0</div>
+
+                    <a data-url="_friend_list" class="dlgutil-parts-menu-btn mbgaui-widget-anchors friends">
+                    
+                    </a>
+                    <p>Friends</p>
+                </div>
+                <div class="dialog-menu-cell" id="menu31">
+                    <a data-url="_event_history" class="dlgutil-parts-menu-btn mbgaui-widget-anchors history"></a>
+                    <p>History</p>
+                </div>
+                <div class="dialog-menu-cell" id="menu">
+                    <a data-url="_setting" class="dlgutil-parts-menu-btn mbgaui-widget-anchors setting"></a>
+                    <p>Setting</p>
+                </div>
+            </div>
+
+            <div class="dialog-menu-col">
+                <div class="dialog-menu-cell" id="menu32">
+                    <a data-url="_help" class="dlgutil-parts-menu-btn mbgaui-widget-anchors help"></a>
+                    <p>HELP</p>
+                </div>
+                <div class="dialog-menu-cell" id="menu33">
+                </div>
+                <div class="dialog-menu-cell" id="menu34">
+                    
+                    <div class="count hjax-hidden">0</div>
+
+<!--                    <a data-url="_special_campaign_list" class="dlgutil-parts-menu-btn mbgaui-widget-anchors monthly-campaign"></a>
+                    <p>Holiday Special</p> -->
+                </div>
+
+            </div>
+
+            <a class="dialog-menu-fb mbgaui-widget-anchors" onClick="$.platform.openExternalURL('http://goo.gl/YiA8o', 'fb://profile/413088685429158'); return false;"><p>Follow us on<br><span>Facebook</span></p></a>
+            <a class="dialog-menu-wall mbgaui-widget-anchors" onClick="$.audio.playSe('ok'); $.appUtil.blackOut(); $.hjax.windowLocation('http://community.denagames.com/_bbs_topics?game_id=601&session_key=45CoocKLCMri0PnhpzaVPNTyKuqWwx7c&link1_t_ids=10922973%2C10922974%2C10922975%2C10922976%2C11004462%2C11004463%2C11004464%2C11822714&topic_ids=10922973%2C10922974%2C10922975%2C10922976%2C11004462%2C11004463%2C11004464%2C11822714&link1_type=1&game_url=http%3A%2F%2Fdot.denagames-asia.com%2F_my&link0_type=0&link0_title=Forum&title=Forum&link0_t_ids=10922973%2C10922974%2C10922975%2C10922976%2C11004462%2C11004463%2C11004464%2C11822714&block_words=dUoZ')"><p>Post on the<br><span>Forum</span></p></a>        </div>
+    </div>
+</div>
+
+    <div class='popup-dialog-overlay'></div>
+</div>
+
+
+
+
+<div id="dungeon-first-clear-dialog" class='popup-dialog hjax-none'>
+    <div class='popup-dialog-underlay '></div>
+        <div class="dlgutil-parts-box dialog-shadow dialog-shadow-height1">
+    <div class="dialog-body dialog-body-height1">
+        <div class="dialog-title">
+            <h1 class="dlgutil-parts-title">title</h1>
+        </div>
+        <div class="dialog-message6">
+            <img src="static/lang/i/common/good.png" width="158" height="140">
+        </div>
+        <div class="dialog-message-bottom">
+            <p class="dlgutil-parts-message">message</p>
+        </div>
+        <div class="dialog-btn-area2">
+            <ul class="dialog-bottom-btn">
+                <li class="yellow-btn"><a class="dlgutil-parts-btn-ok mbgaui-widget-anchors">OK</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class='popup-dialog-overlay'></div>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var func = function() {
+        var dialogQueue = [];
+        var endFuncs = [];
+
+        $.pageData.eventHandler = {
+            listener: null,
+
+            run: function(callback) {
+                if (callback) {
+                    dialogQueue.push(callback);
+                } else {
+                    dialogQueue.push($.pageData.eventHandler.end);
+                }
+                $.appUtil.callNestedFunctions(dialogQueue);
+            },
+
+            end: function() {
+                var i;
+                for (i = 0; i < endFuncs.length; i++) {
+                    var func = endFuncs[i];
+                    func();
+                }
+            },
+
+            getEvents: function() {
+                var events = [  ];
+
+                return events;
+            },
+
+            setListener: function(listener) {
+                this.listener = listener;
+            },
+
+            getListener: function() {
+                return this.listener;
+            }
+        };
+
+    };
+
+    $.hjax.addLoadedFunc(func);
+})();
+</script>
+
+<script type="text/javascript">
+$.animation.manager.addController(new $.animation.HomeAnimationController({"assets":{"/Content/lang/ab/common/home_field.json":{"/Content/lang/ab/common/home_field.json":{"hash":"/gd5v2PhNeDx4tqwBaokpg"},"/Content/lang/ab/font/PT-BossaBold.png":{"hash":"1HbLE9hfa8gKYoCDTbM24A"},"/Content/lang/ab/font/PT-BossaBold.fnt":{"hash":"kqBBKWKsQC95ilkRfVfd8g"},"/Content/lang/ab/common/icon_time_back_b.png":{"hash":"S4zhhwgOPOLYOjBAfCZdqg"},"/Content/lang/ab/common/mission_icon/img_fever_gradation.png":{"hash":"87Lz4ofEzvHCRM41GYVayQ"}},"/Content/lang/ab/character/Monster/302120/302120.json":{"/Content/lang/ab/common/effect/img/img_kira_1.png":{"hash":"Nkw7QCgbDuqyimXNU/wO/Q"},"/Content/lang/ab/character/Monster/302120/302120.json":{"hash":"Vbk+N+I5rrMjX22gFdUe+A"},"/Content/lang/ab/character/Monster/302120/302120.saproj":{"hash":"pUJGKe6Mc28hhriL8yBF8w"},"/Content/lang/ab/common/img_shadow.png":{"hash":"ryN5V9HsAqqn9T9rDdoXug"},"/Content/lang/ab/character/Monster/302120/M0021.json":{"hash":"eeAUXQUIOusa/zn9EqXSYQ"},"/Content/lang/ab/character/Monster/302120/img_302120_effect.png":{"hash":"ym5/u1bFwXS/9trche1xSg"},"/Content/lang/ab/character/Monster/302120/M0021.png":{"hash":"NrfH2YOicDT5uE92s6Qo9w"}},"/Content/lang/ab/character/Sub_people/209900/209900.json":{"/Content/lang/ab/character/Sub_people/209900/img_207100.png":{"hash":"5lNYi7+i3cPZt/caf5R2Kw"},"/Content/lang/ab/common/img_shadow.png":{"hash":"ryN5V9HsAqqn9T9rDdoXug"},"/Content/lang/ab/character/Sub_people/209900/img_207100.json":{"hash":"XEjriTRehZwxJVvEE7nxHg"},"/Content/lang/ab/character/Sub_people/209900/209900.json":{"hash":"FewQgEZDDyCLdcPEgXIB8A"},"/Content/lang/ab/character/Sub_people/209900/207100.saproj":{"hash":"UCU5gHzdlDj1uMhLxw4gMA"}},"/Content/lang/ab/character/Sub_people/209900/209902.json":{"/Content/lang/ab/character/Sub_people/209900/img_207102_2.png":{"hash":"L4/AuCSj1U4Yp1rirSFRWw"},"/Content/lang/ab/common/effect/img/eff_light04.png":{"hash":"PE4l3B1Ex9yEr8EitzHeZw"},"/Content/lang/ab/common/effect/img/eff_light02.png":{"hash":"Sjv72DvWV55JpDKAYs1tmA"},"/Content/lang/ab/character/Sub_people/209900/pb_209902at.json":{"hash":"YQukZulLYnPjHLutbnNVfg"},"/Content/lang/ab/common/img_shadow.png":{"hash":"ryN5V9HsAqqn9T9rDdoXug"},"/Content/lang/ab/character/Sub_people/209900/img_207102_2.json":{"hash":"dm4E5iKb9JTBCQKjxPfxtw"},"/Content/lang/ab/character/Sub_people/209900/img_207102_1.json":{"hash":"jMfWhDHmgrNJhReSc33H7Q"},"/Content/lang/ab/character/Sub_people/209900/img_207102_1.png":{"hash":"OsbMv0BGnTMfNuR3yCv51A"},"/Content/lang/ab/common/effect/img/eff_radial01.png":{"hash":"s2/Q2njC5X3vPC7UaFW6Lg"},"/Content/lang/ab/common/effect/img/eff_atk01.png":{"hash":"8ssPXfXJHRrI58iOVF1njA"},"/Content/lang/ab/character/Sub_people/209900/209902.json":{"hash":"sSpcvfp3XSVYWe5Kc58pYA"},"/Content/lang/ab/character/Sub_people/209900/207102.saproj":{"hash":"eIdt1YrBC2r307tMrQIIuQ"},"/Content/lang/ab/character/Sub_people/209900/pb_209902ap.json":{"hash":"TlMWkhji27eBZRBi+bH5DQ"}},"/Content/lang/ab/character/Monster/305600/305602.json":{"/Content/lang/ab/character/Monster/305600/img_305602_1.png":{"hash":"WV288k8hiMZ6pp1I8ohSnA"},"/Content/lang/ab/common/img_shadow.png":{"hash":"ryN5V9HsAqqn9T9rDdoXug"},"/Content/lang/ab/character/Monster/305600/img_305602_2.json":{"hash":"eTJHy/Qvbe14Zu0DTAAFxw"},"/Content/lang/ab/character/Monster/305600/img_305602_1.json":{"hash":"e/MDePFrnFwUDZrTziXjTQ"},"/Content/lang/ab/character/Monster/305600/305602.saproj":{"hash":"5SsfP2Mg1P/Q7dZIAvSD/g"},"/Content/lang/ab/character/Monster/305600/305602.json":{"hash":"EO2hmree9C6ZkJ1SntcPNA"},"/Content/lang/ab/character/Monster/305600/img_305602_2.png":{"hash":"TDc63jlRmqweugoz0tUn7Q"}}},"paths":{"deck":["/Content/lang/ab/character/Monster/305600/305602.json","/Content/lang/ab/character/Monster/302120/302120.json","/Content/lang/ab/character/Monster/302120/302120.json","/Content/lang/ab/character/Monster/302120/302120.json","/Content/lang/ab/character/Sub_people/209900/209902.json","/Content/lang/ab/character/Monster/302120/302120.json","/Content/lang/ab/character/Monster/305600/305602.json","/Content/lang/ab/character/Monster/302120/302120.json","/Content/lang/ab/character/Sub_people/209900/209900.json"],"bg":"/Content/lang/ab/common/home_field.json"}}));
+$.animation.manager.setupControllers();
+
+$.hjax.addLoadedFunc(function() {
+    // 念の為にホームに行ったら、リセットしておく
+    $.hjax.resetBackBtnCover();
+
+    $.pageData.my = {
+        mission: {
+            missionId: parseInt("0"),
+            isEventMission: parseInt("0"),
+            isOpen: parseInt("0"),
+        },
+        event: {
+            eventId: parseInt("0"),
+            eventType: parseInt("0"),
+            canEvent: parseInt("0"),
+        },
+        showMenu: function() {
+            $.audio.playSe('ok');
+            return $.dialogUtil.showMenuDialog({ title: "More" });
+        },
+        onGo: function() {
+            $.audio.playSe("ok");
+            $.appUtil.onGoJourney(this.mission, this.event);
+        },
+        fbConnect: {
+            isCheckFbConnectStatusEnable: false
+        },
+        onEventIntroduction: function() {
+            $.hjax({se:'ok', url: '_event_introduction'});
+        }
+    };
+
+    var queue = [];
+    var reloadFlg = false;
+    var loginRewardFlg = false;
+    var banunuFlg = false;
+
+    
+
+    
+
+    
+
+    
+
+    if (loginRewardFlg) {
+        queue.push(function(done) {
+            $.pageData.eventHandler.run(done);
+        });
+    }
+
+    
+
+    
+
+    if (banunuFlg) {
+        queue.push(function() {
+            $.hjax({url: '_banunu_cm'});
+        });
+    } else if (reloadFlg) {
+        queue.push(function() {
+            $.hjax.reload();
+        });
+    }
+
+    $.appUtil.callNestedFunctions(queue);
+});
+
+// update time
+$.hjax.addLoadedFunc(function() {
+    var updateTime = function() {
+        $.appUtil.updateMpTime(100, 100, 1431553187);
+        $.appUtil.updateBpTime(3, 3, 1431551733);
+
+
+    };
+    updateTime();
+
+    $.pageData.updateTimerId = setInterval(updateTime, 1000);
+    if ($.pageData.my.fbConnect.isCheckFbConnectStatusEnable) {
+        $.appAjax({
+            url: '_check_fb_connect_status',
+            successFunc: function(data, dataType) {
+                console.log(JSON.stringify(data));
+                $.pageData.my.fbConnect.isCheckFbConnectStatusEnable = false;
+            },
+        });
+    }
+
+});
+
+$.hjax.addUnloadedFunc(function() {
+    clearInterval($.pageData.updateTimerId);
+});
+
+// rotating banner
+$.hjax.addLoadedFunc(function() {
+    var updateCampaignTime = function() {
+        var overText = '';
+    };
+    //updateCampaignTime();
+
+    //$.pageData.updateCampaignTimeID = setInterval(updateCampaignTime, 1000);
+
+    var specialCampaign = [];
+    var banners = [];
+
+    var bannerLength = banners.length;
+    if(bannerLength >= 3) {
+        var lastBanner = {
+            end_date: banners[bannerLength-1].end_time,
+            home_banner: banners[bannerLength-1].src,
+            common_url: banners[bannerLength-1].url,
+        };
+
+        specialCampaign.unshift(lastBanner);
+    }
+
+    var numberOfBanner = specialCampaign.length;
+    var index = 0;
+    var selectorID = '';
+
+
+    var rotateBanner = function() {
+        if (index == 0) {
+            selectorID = "#banner-" + bannerLength;
+        } else {
+            selectorID = "#special-campaign-" + index;
+        }
+        for (var i = 1; i <= numberOfBanner; i++) {
+            $("#special-campaign-" + i).addClass('hjax-none');
+        }
+        $("#banner-" + bannerLength).addClass('hjax-none');
+        $(selectorID).removeClass('hjax-none');
+        ++index;
+        if (index == numberOfBanner) {
+            index = 0;
+        }
+    };
+
+
+    if ((numberOfBanner > 1) && (bannerLength >= 3)) {
+        rotateBanner();
+        $.pageData.rotateBannerID = setInterval(rotateBanner, 4000);
+    }
+
+});
+
+$.hjax.addUnloadedFunc(function() {
+        clearInterval($.pageData.rotateBannerID);
+        //clearInterval($.pageData.updateCampaignTimeID);
+});
+
+</script>
+
+</body>
+</html>
